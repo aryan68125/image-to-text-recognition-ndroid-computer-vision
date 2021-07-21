@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:contentDescription="@string/app_name"
+    android:orientation="vertical"
+    android:layout_marginStart="@dimen/_15sdp"
+    android:layout_marginEnd="@dimen/_15sdp"
+    android:layout_marginTop="@dimen/_15sdp"
+    android:layout_marginBottom="@dimen/_15sdp"
+>
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="@dimen/_280sdp"
+        android:layout_height="@dimen/_280sdp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/_5sdp"
+        />
+
+    <TextView
+        android:id="@+id/text_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Detected Text From image"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_18ssp"
+        android:maxLines="5"
+        android:layout_marginBottom="@dimen/_5sdp"
+        />
+
+    <Button
+        android:id="@+id/capture_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Capture image"
+        android:backgroundTint="#D50000"
+        android:layout_marginBottom="@dimen/_5sdp"
+        />
+    <Button
+        android:id="@+id/detect_text_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Detect Text"
+        android:backgroundTint="#0091EA"
+        android:layout_marginBottom="@dimen/_5sdp"
+        />
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

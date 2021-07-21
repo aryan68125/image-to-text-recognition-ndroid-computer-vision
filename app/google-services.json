@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "858316831099",
+    "project_id": "textrecognitionfromimage-a1bad",
+    "storage_bucket": "textrecognitionfromimage-a1bad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858316831099:android:c185933ce71c3b0eac65de",
+        "android_client_info": {
+          "package_name": "com.aditya.textrecognitionfromimage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858316831099-5f5gk6f9ue1labmbbdmvos02qgl05cdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1ub6wGblSFoMZoOHwI5PMYwQvcIi6_sw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858316831099-5f5gk6f9ue1labmbbdmvos02qgl05cdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
