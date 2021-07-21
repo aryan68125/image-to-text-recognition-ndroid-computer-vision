@@ -50,6 +50,15 @@
         android:layout_marginBottom="@dimen/_5sdp"
         />
     <Button
+        android:id="@+id/import_image_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Import image"
+        android:backgroundTint="#C51162"
+        android:layout_marginBottom="@dimen/_5sdp"
+        />
+    <Button
         android:id="@+id/detect_text_image_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
